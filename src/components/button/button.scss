@@ -1,0 +1,17 @@
+.button {
+  $self: &;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 16px;
+  border: 1px solid $blue;
+  background: $blue;
+  color: #fff;
+  font-size: 14px;
+  transition: all 0.3s;
+
+  @include hover {
+    cursor: pointer;
+    box-shadow: 1px 3px 8px rgba(#000, .3);
+  }
+}
